@@ -14,3 +14,4 @@ CREATE TABLE memberaccountjpa (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='會員資料表JPA'
 
 add 修改加入書籤
+commit 記錄索引的狀態
