@@ -1,0 +1,14 @@
+GRANT ALL PRIVILEGES ON MEMBER.* TO 'benyu0721'@'localhost';
+FLUSH PRIVILEGES;
+quit -離開資料庫
+
+
+CREATE TABLE memberaccountjpa (
+  ID int(11) NOT NULL ,
+  EMAIL varchar(40) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PASSWORD varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  ADDRESS varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  CELLPHONE varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='會員資料表JPA'
